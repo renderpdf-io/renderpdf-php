@@ -1,0 +1,46 @@
+{
+    "name": "renderpdf-io/renderpdf-php",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Render and covert HTML to PDF using RenderPDF.io service, library for PHP",
+    "keywords": [
+        "php library",
+        "php convert html to pdf",
+        "php render html to pdf",
+        "html to pdf",
+        "renderpdf",
+        "renderpdf.io",
+        "php"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^10",
+        "phpunit/php-code-coverage": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenderPdfIoPhp\\": "src/"
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenderPdfIoPhp\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test-coverage": [
+            "@php vendor/bin/phpunit --coverage-clover coverage.xml"
+        ],
+        "test": [
+            "@php vendor/bin/phpunit"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
