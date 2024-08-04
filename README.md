@@ -1,5 +1,7 @@
 # Render HTML to PDF for PHP - RenderPDF.io PHP Library
 
+[![Unit Test](https://github.com/renderpdf-io/renderpdf-php/actions/workflows/build.yml/badge.svg)](https://github.com/renderpdf-io/renderpdf-php/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/renderpdf-io/renderpdf-php/graph/badge.svg?token=UFQHEZDDXP)](https://codecov.io/gh/renderpdf-io/renderpdf-php)
 
 ![RenderPDF.io Cover](./.github/renderpdf-io-cover.png)
 
